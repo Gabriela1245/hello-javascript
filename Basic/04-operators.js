@@ -29,13 +29,13 @@ console.log(myVariable)
 myVariable += 2 // Suma con asignación
 console.log(myVariable)
 
-myVariable -= 2 // Resta con asignación
+myVariable -= 2 // Resta con asignación, es decir, es lo mismo que cuando dices: myVariable + 2
 myVariable *= 2 // Multiplicación con asignación
 myVariable /= 2 // División con asignación
 myVariable %= 2 // Módulo con asignación
 myVariable **= 2 // Exponente con asignación
 
-// Operadores de comparación
+// Operadores de comparación, la compración entre dos variables siempre nos dará un boolean, es decir, nos arrojará si esa comparación es tru o false
 
 console.log(a > b) // Mayor que
 console.log(a < b) // Menor que
@@ -47,7 +47,7 @@ console.log(a == "6")
 console.log(a == a)
 console.log(a === a) // Igualdad por identidad (por tipo y valor) o igualdad estricta
 console.log(a === 6)
-console.log(a === "6")
+console.log(a === "6") // a es un valor tipo número, pero "6" es un tipo de cadena de texto. No son lo mismo en identidad(por tipo y valor)
 console.log(a != 6) // Desigualdad por valor
 console.log(a !== "6") // Desigualdad por identidad (por tipo y valor) o desigualdad estricta
 console.log(0 == false)
@@ -58,7 +58,7 @@ console.log(0 == " ")
 console.log(0 == '')
 console.log(0 == "Hola")
 console.log(0 === "")
-console.log(undefined == null)
+console.log(undefined == null) //Son iguales al tener ambos ausencia de valores.
 console.log(undefined === null)
 
 /*
